@@ -84,7 +84,7 @@ const Login = () => {
                                
                                     <div className="d-flex justify-content-center py-4">
                                         <a className="logo d-flex align-items-center w-auto">
-                                            <span className="d-none d-lg-block">Property  Owner Login</span>
+                                            <span className="d-none d-lg-block">Admin Login</span>
                                         </a>
                                     </div>
 
@@ -128,7 +128,7 @@ const Login = () => {
                                             </div>
 
                                             <div className="col-12">
-                                                <p className="small mb-0">Don't have account? <a href="" >Please contact system administrator.</a></p>
+                                                <p className="small mb-0">Don't have account? <a href="/signup" >Click Here to Create an Account</a></p>
                                             </div>
                                         </form>
 

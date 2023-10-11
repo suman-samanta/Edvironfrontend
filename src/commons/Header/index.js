@@ -26,7 +26,7 @@ const signOut=()=>{
 
                 <div className="d-flex align-items-center ">
                   <Link to="/">  <a  className="logo d-flex align-items-center">
-                        <span className="">Property Management</span>
+                        <span className="">Fees ManageMent</span>
                     </a></Link>
                   
                 </div>

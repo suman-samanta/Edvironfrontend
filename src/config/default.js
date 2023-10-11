@@ -1,3 +1,3 @@
-const baseUrl="https://pms-1sps.onrender.com"
+const baseUrl="http://localhost:5000"
 
 module.exports=baseUrl;

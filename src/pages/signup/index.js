@@ -35,7 +35,9 @@ const SignUp = () => {
 
             const validEmailcheck=await axios.get(`https://emailvalidation.abstractapi.com/v1/?api_key=97932b2cdb154061b6989d7655d96f73&email=${email}`);
 
-            if(validEmailcheck.deliverability==="DELIVERABLE"){
+            console.log(validEmailcheck);
+
+            if(validEmailcheck.data.deliverability==="DELIVERABLE"){
                 const res=await axios.post(`${baseUrl}/api/signup`,{
                     email:email,
                     password:password,
@@ -92,7 +94,7 @@ const SignUp = () => {
                                
                                     <div className="d-flex justify-content-center py-4">
                                         <a className="logo d-flex align-items-center w-auto">
-                                            <span className="d-none d-lg-block">Property Owner signup</span>
+                                            <span className="d-none d-lg-block">Admin signup</span>
                                         </a>
                                     </div>
 
